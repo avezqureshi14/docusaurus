@@ -1,0 +1,50 @@
+.config-container {
+    width: 100vh;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 3rem;
+  }
+  
+  .product-name {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .theme-color {
+    color: #068B84;
+  }
+  
+  .product-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-links li {
+    margin-bottom: 8px;
+  }
+  
+  .support-link,
+  .product-page-link,
+  .documentation-link {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .support-link:hover,
+  .product-page-link:hover,
+  .documentation-link:hover {
+    text-decoration: underline;
+  }
+  
+  .config-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
